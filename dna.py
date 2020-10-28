@@ -2,6 +2,8 @@ from sys import argv, exit
 import csv
 import re
 
+# https://pythonforbiologists.com/regular-expressions was very usefull
+
 # check if there are the required amount of command line args.
 if len(argv) != 3:
     print("Error")
